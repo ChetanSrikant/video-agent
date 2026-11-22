@@ -1,0 +1,21 @@
+# Local credentials and environment
+**/.env
+**/.env.*
+!**/.env.example
+**/.venv/
+**/venv/
+
+# Python and local tooling
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Generated media, model data, and vector indexes
+VIDEO AGENT/downloades/
+VIDEO AGENT/vector_db/
+**/*.part
+
+# OS files
+.DS_Store
+Thumbs.db
